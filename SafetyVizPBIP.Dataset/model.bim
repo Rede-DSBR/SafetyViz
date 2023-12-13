@@ -1,0 +1,2827 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DimEmpresa\",\"DimIntensidade\",\"DimMapaIndustria\",\"DimRisco\",\"FMapaRisco\",\"DimNorma\",\"FNorma\",\"DNorma\",\"MTE\",\"PegaDescMTE\",\"DimClasseRisco\",\"Tela Inicial\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.123.742.0 (23.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "D_classe_risco": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimClasseRisco"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "D classe risco": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DClasseRisco": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "D_classe_risco.ID_classe": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimClasseRisco",
+                    "ConceptualProperty": "ID Classe"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID classe": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "IDClasse": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "D_classe_risco.classificação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimClasseRisco",
+                    "ConceptualProperty": "Classe"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "classificação": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "D_empresa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimEmpresa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "D empresa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DEmpresa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "D_empresa.empresa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimEmpresa",
+                    "ConceptualProperty": "Empresa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "empresa": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "D_empresa.número_de_funcionário": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimEmpresa",
+                    "ConceptualProperty": "Número de Funcionários"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "número de funcionário": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "D_empresa.número_de_funcionários_esporádico": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimEmpresa",
+                    "ConceptualProperty": "Número de Funcionários Esporádicos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "número de funcionários esporádico": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "número de funcionário esporádico": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "D_empresa.setor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimEmpresa",
+                    "ConceptualProperty": "Setor"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "setor": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "D_intensidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimIntensidade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "D intensidade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DIntensidade": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "D_intensidade.ID_gravidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimIntensidade",
+                    "ConceptualProperty": "ID Gravidade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID gravidade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "IDGravidade": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification gravidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity gravidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier gravidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential gravidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "D_intensidade.gravidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimIntensidade",
+                    "ConceptualProperty": "Gravidade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "gravidade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "D_risco": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimRisco"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "D risco": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DRiscos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "D_risco.ID_classe": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimRisco",
+                    "ConceptualProperty": "ID Classe"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID classe": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "IDClasse": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential classe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "D_risco.ID_risco": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimRisco",
+                    "ConceptualProperty": "ID Risco"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID risco": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "IDRisco": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "D_risco.risco": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimRisco",
+                    "ConceptualProperty": "Risco"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "risco": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "F_norma": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FNorma"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "F norma": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FNormas": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "F_norma.anexo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FNorma",
+                    "ConceptualProperty": "Anexo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "anexo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "F_norma.classificação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FNorma",
+                    "ConceptualProperty": "Classe"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "classificação": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "F_norma.norma": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FNorma",
+                    "ConceptualProperty": "ID Norma"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "norma": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "dimobras.modelo_licitacao": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimObras",
+                    "ConceptualProperty": "Modelo Licitacao"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Modelo de Licitação": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimobras.titulo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimObras",
+                    "ConceptualProperty": "Titulo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Nome da Obra": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mapa_desenho": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimMapaIndustria"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mapa desenho": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MapaDesenho": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "mapa_desenho.area": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimMapaIndustria",
+                    "ConceptualProperty": "Area"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "area": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "neighbourhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "continent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "field": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "neighborhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "mapa_desenho.elemento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimMapaIndustria",
+                    "ConceptualProperty": "Elemento"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "elemento": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "risco_mapa_cargill": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FMapaRisco"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "risco mapa cargill": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "RiscoMapaCargill": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "risco_mapa_cargill.ID_classe_risco": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FMapaRisco",
+                    "ConceptualProperty": "ID Classe"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID classe risco": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "IDClasseRisco": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification classe risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identity classe risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identifier classe risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "credential classe risco": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "risco_mapa_cargill.area": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FMapaRisco",
+                    "ConceptualProperty": "ID Area"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "area": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "neighbourhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "continent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "field": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "neighborhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "D_classe_risco_has_ID_classe": {
+                "Binding": {
+                  "ConceptualEntity": "DimClasseRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_classe_risco.ID_classe"
+                      },
+                      "Subject": {
+                        "Role": "D_classe_risco"
+                      }
+                    },
+                    "ID": "D_classe_riscos_have_ID_classes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_classe_risco": {
+                    "Target": {
+                      "Entity": "D_classe_risco"
+                    }
+                  },
+                  "D_classe_risco.ID_classe": {
+                    "Target": {
+                      "Entity": "D_classe_risco.ID_classe"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_classe_risco_has_classificação": {
+                "Binding": {
+                  "ConceptualEntity": "DimClasseRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_classe_risco.classificação"
+                      },
+                      "Subject": {
+                        "Role": "D_classe_risco"
+                      }
+                    },
+                    "ID": "D_classe_riscos_have_classificaçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_classe_risco": {
+                    "Target": {
+                      "Entity": "D_classe_risco"
+                    }
+                  },
+                  "D_classe_risco.classificação": {
+                    "Target": {
+                      "Entity": "D_classe_risco.classificação"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_empresa_has_empresa": {
+                "Binding": {
+                  "ConceptualEntity": "DimEmpresa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_empresa.empresa"
+                      },
+                      "Subject": {
+                        "Role": "D_empresa"
+                      }
+                    },
+                    "ID": "D_empresas_have_empresas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_empresa": {
+                    "Target": {
+                      "Entity": "D_empresa"
+                    }
+                  },
+                  "D_empresa.empresa": {
+                    "Target": {
+                      "Entity": "D_empresa.empresa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_empresa_has_número_de_funcionário": {
+                "Binding": {
+                  "ConceptualEntity": "DimEmpresa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_empresa.número_de_funcionário"
+                      },
+                      "Subject": {
+                        "Role": "D_empresa"
+                      }
+                    },
+                    "ID": "D_empresas_have_número_de_funcionários",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_empresa": {
+                    "Target": {
+                      "Entity": "D_empresa"
+                    }
+                  },
+                  "D_empresa.número_de_funcionário": {
+                    "Target": {
+                      "Entity": "D_empresa.número_de_funcionário"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_empresa_has_número_de_funcionários_esporádico": {
+                "Binding": {
+                  "ConceptualEntity": "DimEmpresa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_empresa.número_de_funcionários_esporádico"
+                      },
+                      "Subject": {
+                        "Role": "D_empresa"
+                      }
+                    },
+                    "ID": "D_empresas_have_número_de_funcionários_esporádicos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_empresa": {
+                    "Target": {
+                      "Entity": "D_empresa"
+                    }
+                  },
+                  "D_empresa.número_de_funcionários_esporádico": {
+                    "Target": {
+                      "Entity": "D_empresa.número_de_funcionários_esporádico"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_empresa_has_setor": {
+                "Binding": {
+                  "ConceptualEntity": "DimEmpresa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_empresa.setor"
+                      },
+                      "Subject": {
+                        "Role": "D_empresa"
+                      }
+                    },
+                    "ID": "D_empresas_have_setors",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_empresa": {
+                    "Target": {
+                      "Entity": "D_empresa"
+                    }
+                  },
+                  "D_empresa.setor": {
+                    "Target": {
+                      "Entity": "D_empresa.setor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_intensidade_has_ID_gravidade": {
+                "Binding": {
+                  "ConceptualEntity": "DimIntensidade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_intensidade.ID_gravidade"
+                      },
+                      "Subject": {
+                        "Role": "D_intensidade"
+                      }
+                    },
+                    "ID": "D_intensidades_have_ID_gravidades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_intensidade": {
+                    "Target": {
+                      "Entity": "D_intensidade"
+                    }
+                  },
+                  "D_intensidade.ID_gravidade": {
+                    "Target": {
+                      "Entity": "D_intensidade.ID_gravidade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_intensidade_has_gravidade": {
+                "Binding": {
+                  "ConceptualEntity": "DimIntensidade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_intensidade.gravidade"
+                      },
+                      "Subject": {
+                        "Role": "D_intensidade"
+                      }
+                    },
+                    "ID": "D_intensidades_have_gravidades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_intensidade": {
+                    "Target": {
+                      "Entity": "D_intensidade"
+                    }
+                  },
+                  "D_intensidade.gravidade": {
+                    "Target": {
+                      "Entity": "D_intensidade.gravidade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_risco_has_D_classe_risco": {
+                "Binding": {
+                  "ConceptualEntity": "DimRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_classe_risco"
+                      },
+                      "Subject": {
+                        "Role": "D_risco"
+                      }
+                    },
+                    "ID": "D_riscos_have_D_classe_riscos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_risco"
+                      },
+                      "Subject": {
+                        "Role": "D_classe_risco"
+                      }
+                    },
+                    "ID": "D_classe_riscos_have_D_riscos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_classe_risco": {
+                    "Target": {
+                      "Entity": "D_classe_risco"
+                    }
+                  },
+                  "D_risco": {
+                    "Target": {
+                      "Entity": "D_risco"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_risco_has_ID_classe": {
+                "Binding": {
+                  "ConceptualEntity": "DimRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_risco.ID_classe"
+                      },
+                      "Subject": {
+                        "Role": "D_risco"
+                      }
+                    },
+                    "ID": "D_riscos_have_ID_classes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_risco": {
+                    "Target": {
+                      "Entity": "D_risco"
+                    }
+                  },
+                  "D_risco.ID_classe": {
+                    "Target": {
+                      "Entity": "D_risco.ID_classe"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_risco_has_ID_risco": {
+                "Binding": {
+                  "ConceptualEntity": "DimRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_risco.ID_risco"
+                      },
+                      "Subject": {
+                        "Role": "D_risco"
+                      }
+                    },
+                    "ID": "D_riscos_have_ID_riscos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_risco": {
+                    "Target": {
+                      "Entity": "D_risco"
+                    }
+                  },
+                  "D_risco.ID_risco": {
+                    "Target": {
+                      "Entity": "D_risco.ID_risco"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "D_risco_has_risco": {
+                "Binding": {
+                  "ConceptualEntity": "DimRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_risco.risco"
+                      },
+                      "Subject": {
+                        "Role": "D_risco"
+                      }
+                    },
+                    "ID": "D_riscos_have_riscos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_risco": {
+                    "Target": {
+                      "Entity": "D_risco"
+                    }
+                  },
+                  "D_risco.risco": {
+                    "Target": {
+                      "Entity": "D_risco.risco"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "F_norma_has_D_norma": {
+                "Binding": {
+                  "ConceptualEntity": "FNorma"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_norma"
+                      },
+                      "Subject": {
+                        "Role": "F_norma"
+                      }
+                    },
+                    "ID": "F_norma_have_D_norma",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "F_norma"
+                      },
+                      "Subject": {
+                        "Role": "D_norma"
+                      }
+                    },
+                    "ID": "D_norma_have_F_norma",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_norma": {
+                    "Nouns": [
+                      {
+                        "norma": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "D_norma"
+                    }
+                  },
+                  "F_norma": {
+                    "Target": {
+                      "Entity": "F_norma"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "F_norma_has_anexo": {
+                "Binding": {
+                  "ConceptualEntity": "FNorma"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "F_norma.anexo"
+                      },
+                      "Subject": {
+                        "Role": "F_norma"
+                      }
+                    },
+                    "ID": "F_norma_have_anexos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "F_norma": {
+                    "Target": {
+                      "Entity": "F_norma"
+                    }
+                  },
+                  "F_norma.anexo": {
+                    "Target": {
+                      "Entity": "F_norma.anexo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "F_norma_has_classificação": {
+                "Binding": {
+                  "ConceptualEntity": "FNorma"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "F_norma.classificação"
+                      },
+                      "Subject": {
+                        "Role": "F_norma"
+                      }
+                    },
+                    "ID": "F_norma_have_classificaçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "F_norma": {
+                    "Target": {
+                      "Entity": "F_norma"
+                    }
+                  },
+                  "F_norma.classificação": {
+                    "Target": {
+                      "Entity": "F_norma.classificação"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mapa_desenho_has_area": {
+                "Binding": {
+                  "ConceptualEntity": "DimMapaIndustria"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mapa_desenho.area"
+                      },
+                      "Subject": {
+                        "Role": "mapa_desenho"
+                      }
+                    },
+                    "ID": "mapa_desenhos_have_areas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mapa_desenho": {
+                    "Target": {
+                      "Entity": "mapa_desenho"
+                    }
+                  },
+                  "mapa_desenho.area": {
+                    "Target": {
+                      "Entity": "mapa_desenho.area"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mapa_desenho_has_elemento": {
+                "Binding": {
+                  "ConceptualEntity": "DimMapaIndustria"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mapa_desenho.elemento"
+                      },
+                      "Subject": {
+                        "Role": "mapa_desenho"
+                      }
+                    },
+                    "ID": "mapa_desenhos_have_elementos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mapa_desenho": {
+                    "Target": {
+                      "Entity": "mapa_desenho"
+                    }
+                  },
+                  "mapa_desenho.elemento": {
+                    "Target": {
+                      "Entity": "mapa_desenho.elemento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mapa_desenho_in_area": {
+                "Binding": {
+                  "ConceptualEntity": "DimMapaIndustria"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "mapa_desenhos_are_in_areas",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "mapa_desenho.area"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "mapa_desenho"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mapa_desenho": {
+                    "Target": {
+                      "Entity": "mapa_desenho"
+                    }
+                  },
+                  "mapa_desenho.area": {
+                    "Target": {
+                      "Entity": "mapa_desenho.area"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "mapa_desenho.area"
+                  }
+                },
+                "State": "Generated"
+              },
+              "risco_mapa_cargill_has_D_classe_risco": {
+                "Binding": {
+                  "ConceptualEntity": "FMapaRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "D_classe_risco"
+                      },
+                      "Subject": {
+                        "Role": "risco_mapa_cargill"
+                      }
+                    },
+                    "ID": "risco_mapa_cargill_have_D_classe_riscos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "risco_mapa_cargill"
+                      },
+                      "Subject": {
+                        "Role": "D_classe_risco"
+                      }
+                    },
+                    "ID": "D_classe_riscos_have_risco_mapa_cargill",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "D_classe_risco": {
+                    "Target": {
+                      "Entity": "D_classe_risco"
+                    }
+                  },
+                  "risco_mapa_cargill": {
+                    "Target": {
+                      "Entity": "risco_mapa_cargill"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "risco_mapa_cargill_has_classificação_risco": {
+                "Binding": {
+                  "ConceptualEntity": "FMapaRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "risco_mapa_cargill.classificação_risco"
+                      },
+                      "Subject": {
+                        "Role": "risco_mapa_cargill"
+                      }
+                    },
+                    "ID": "risco_mapa_cargill_have_classificação_riscos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "risco_mapa_cargill": {
+                    "Target": {
+                      "Entity": "risco_mapa_cargill"
+                    }
+                  },
+                  "risco_mapa_cargill.classificação_risco": {
+                    "Target": {
+                      "Entity": "risco_mapa_cargill.classificação_risco"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "risco_mapa_cargill_has_mapa_desenho": {
+                "Binding": {
+                  "ConceptualEntity": "FMapaRisco"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mapa_desenho"
+                      },
+                      "Subject": {
+                        "Role": "risco_mapa_cargill"
+                      }
+                    },
+                    "ID": "risco_mapa_cargill_have_mapa_desenhos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "risco_mapa_cargill"
+                      },
+                      "Subject": {
+                        "Role": "mapa_desenho"
+                      }
+                    },
+                    "ID": "mapa_desenhos_have_risco_mapa_cargill",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mapa_desenho": {
+                    "Target": {
+                      "Entity": "mapa_desenho"
+                    }
+                  },
+                  "risco_mapa_cargill": {
+                    "Target": {
+                      "Entity": "risco_mapa_cargill"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "PegaDescMTE",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "(WebLink as text) =>",
+          "let",
+          "    Fonte = Web.BrowserContents(WebLink),",
+          "    #\"Tabela extraída de HTML\" = Html.Table(Fonte, {{\"Normas\", \"STRONG:nth-last-child(4)\"}, {\"Descrição\", \"[id*=\"\"content-core\"\"]\"}, {\"Inicio de Vigência\", \".discreet:nth-child(4)\"}}, [RowSelector=\"[id*=\"\"content-core\"\"]\"]),",
+          "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Tabela extraída de HTML\",{{\"Normas\", type text}, {\"Descrição\", type text}, {\"Inicio de Vigência\", type text}})",
+          "in",
+          "    #\"Tipo Alterado\""
+        ],
+        "kind": "m",
+        "lineageTag": "ab7770cf-3771-4b82-a039-aed0df2a8c00",
+        "queryGroup": "NBRs"
+      },
+      {
+        "name": "DNorma",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\Normas.xlsx\"), null, true),",
+          "    Normas_Sheet = Fonte{[Item=\"Normas\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Normas_Sheet, [PromoteAllScalars=true]),",
+          "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Norma\", type text}, {\"Classificação da NR\", type text}, {\"Classificação dos Anexos\", type text}}),",
+          "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Tipo Alterado\", each Text.StartsWith([Norma], \"NR\")),",
+          "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Linhas Filtradas\",{\"Classificação da NR\", \"Norma\"}),",
+          "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\", {\"Norma\"}),",
+          "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Duplicatas Removidas\",{{\"Classificação da NR\", \"Classificação\"}}),",
+          "    #\"Texto Inserido Após o Delimitador\" = Table.AddColumn(#\"Colunas Renomeadas\", \"Texto Após o Delimitador\", each Text.AfterDelimiter([Norma], \"-\"), type text),",
+          "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Texto Inserido Após o Delimitador\",{{\"Texto Após o Delimitador\", Int64.Type}}),",
+          "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Tipo Alterado1\",{{\"Texto Após o Delimitador\", \"ID Norma\"}}),",
+          "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Colunas Renomeadas1\",{{\"ID Norma\", type text}}),",
+          "    #\"Colunas Renomeadas2\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Norma\", \"Normas\"}})",
+          "in",
+          "    #\"Colunas Renomeadas2\""
+        ],
+        "kind": "m",
+        "lineageTag": "3f78e498-904d-47a5-b149-d5bc52cffb20",
+        "queryGroup": "NBRs"
+      },
+      {
+        "name": "MTE",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Web.BrowserContents(\"https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs\"),",
+          "    #\"Tabela extraída de HTML\" = Html.Table(Fonte, {{\"Normas\", \".callout\"}, {\"Link\", \"STRONG:nth-last-child(1) > .internal-link\", each [Attributes][href]?}}, [RowSelector=\".callout\"]),",
+          "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Tabela extraída de HTML\",{{\"Normas\", type text}, {\"Link\", type text}}),",
+          "    #\"Função Personalizada Invocada\" = Table.AddColumn(#\"Tipo Alterado\", \"Descrição\", each PegaDescMTE([Link])),",
+          "    #\"Descrição Expandido\" = Table.ExpandTableColumn(#\"Função Personalizada Invocada\", \"Descrição\", {\"Descrição\", \"Inicio de Vigência\"}, {\"Descrição.1\", \"Inicio de Vigência\"}),",
+          "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Descrição Expandido\",{{\"Descrição.1\", \"Descrição\"}, {\"Normas\", \"Norma Titulo\"}}),",
+          "    #\"Índice Adicionado\" = Table.AddIndexColumn(#\"Colunas Renomeadas\", \"Índice\", 1, 1, Int64.Type),",
+          "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Índice Adicionado\",{{\"Índice\", \"ID Norma\"}}),",
+          "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Colunas Renomeadas1\", each ([Norma Titulo] <> \"NR-38 - SEGURANÇA E SAÚDE NO TRABALHO NAS ATIVIDADES DE LIMPEZA URBANA E MANEJO DE RESÍDUOS SÓLIDOS\")),",
+          "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Linhas Filtradas\",{{\"ID Norma\", type text}})",
+          "in",
+          "    #\"Tipo Alterado1\""
+        ],
+        "kind": "m",
+        "lineageTag": "b7858202-b8d2-4cd6-a283-b17890225c91",
+        "queryGroup": "NBRs"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "MapaRisco"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "folder": "NBRs"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "a8884888-3d29-4ab3-af2b-e11b56109b30",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "ID Classe",
+        "fromTable": "DimRisco",
+        "toColumn": "ID Classe",
+        "toTable": "DimClasseRisco"
+      },
+      {
+        "name": "ad429484-1c2e-486c-be1e-c6a8a2fbb859",
+        "fromColumn": "ID Area",
+        "fromTable": "FMapaRisco",
+        "toColumn": "Area",
+        "toTable": "DimMapaIndustria"
+      },
+      {
+        "name": "02e95e69-f543-48dd-ab39-67fa3e57775c",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "ID Classe",
+        "fromTable": "FMapaRisco",
+        "toColumn": "ID Classe",
+        "toTable": "DimClasseRisco"
+      },
+      {
+        "name": "54fedb33-4ca1-4dd5-8a54-adbda99379ad",
+        "fromColumn": "ID Norma",
+        "fromTable": "FNorma",
+        "toColumn": "ID Norma",
+        "toTable": "DimNorma"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "DimEmpresa",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Empresa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6f672554-edcd-4db8-a652-847356a5af64",
+            "sourceColumn": "Empresa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Setor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb08598f-04d4-4dfa-95fa-cd0acdeaf5b8",
+            "sourceColumn": "Setor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Número de Funcionários",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d40a4726-ddc2-4cd1-9ed4-f389fb902850",
+            "sourceColumn": "Número de Funcionários",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Número de Funcionários Esporádicos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "006e484f-0e4b-4f78-9f27-7bde1d2e60c3",
+            "sourceColumn": "Número de Funcionários Esporádicos",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "e63669cc-9006-46b2-925b-b24b0836dc51",
+        "partitions": [
+          {
+            "name": "DimEmpresa",
+            "mode": "import",
+            "queryGroup": "MapaRisco",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\MapaClasseRisco.xlsx\"), null, true),",
+                "    Empresa_Sheet = Fonte{[Item=\"Empresa\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Empresa_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Empresa\", type text}, {\"Setor\", type text}, {\"Número de Funcionários\", Int64.Type}, {\"Número de Funcionários Esporádicos\", Int64.Type}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_c6279070-38dd-4a61-a2a7-2eb42649a9bc",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "06838307-2294-4e0e-8db9-56bbc04b891b",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9327265b-a690-46fa-ada8-2faef6c776de",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "846acacb-fea6-4136-987c-f6075daec43b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "3d4df28e-1148-4110-b217-333c87fe14fc",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "8149ad5c-fdb3-4c63-9ec3-0e64c2eb5a54",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "f5dcf3a1-45ff-4a26-b9ba-9901454f29b4",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "43dd0aa1-385b-4f50-8bfc-c8ef765eb376",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "0bd93852-5ddc-484d-9893-43017e3e38a0",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "45925444-4a07-42be-9057-022a372e9c7b",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "08f8f033-6922-4a9a-ab87-72afc2f01ec4",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "e36a95d9-38de-4414-9937-ed182f94e6bb",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "fe220e9c-2604-49c0-916d-736914676930"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "60bb9d5f-dce4-4766-aac5-1df9e781ebda",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_c6279070-38dd-4a61-a2a7-2eb42649a9bc",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimIntensidade",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Gravidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c759d030-700e-430a-8ff4-318aa5f9c8cd",
+            "sourceColumn": "Gravidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID Gravidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fb773482-df34-411a-a520-d366aa03cbca",
+            "sourceColumn": "ID Gravidade",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "81d59813-1818-49a8-8d81-0e45c5502bd0",
+        "partitions": [
+          {
+            "name": "DimIntensidade",
+            "mode": "import",
+            "queryGroup": "MapaRisco",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\MapaClasseRisco.xlsx\"), null, true),",
+                "    Intensidade_Sheet = Fonte{[Item=\"Intensidade\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Intensidade_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Gravidade\", type text}, {\"IDGravidade\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"IDGravidade\", \"ID Gravidade\"}})",
+                "in",
+                "    #\"Colunas Renomeadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimRisco",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ID Risco",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "72740585-5659-4800-a4ce-5ae9b2323c93",
+            "sourceColumn": "ID Risco",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Risco",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "81b0a9b4-add2-4473-a1bf-a1c6ef0d3736",
+            "sourceColumn": "Risco",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID Classe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "646ee31e-c22e-428d-995d-53afc9bd4838",
+            "sourceColumn": "ID Classe",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Imagem",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c15a28a2-612c-474a-bd50-dd55a6048293",
+            "sourceColumn": "Imagem",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "145236d6-e6f2-43c6-bb38-f79d7c7608bf",
+        "partitions": [
+          {
+            "name": "DimRisco",
+            "mode": "import",
+            "queryGroup": "MapaRisco",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\MapaClasseRisco.xlsx\"), null, true),",
+                "    Riscos_Sheet = Fonte{[Item=\"Riscos\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Riscos_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"IDRisco\", type text}, {\"Risco\", type text}, {\"Classificação\", type text}}),",
+                "    #\"Coluna Condicional Adicionada\" = Table.AddColumn(#\"Tipo Alterado\", \"IDClasse\", each if [Classificação] = \"Físico\" then \"ClasseRisco01\" else if [Classificação] = \"Químico\" then \"ClasseRisco02\" else if [Classificação] = \"Ergonômicos\" then \"ClasseRisco03\" else if [Classificação] = \"Acidentes\" then \"ClasseRisco04\" else null),",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Coluna Condicional Adicionada\",{\"IDRisco\", \"Risco\", \"Imagem\", \"IDClasse\"}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Outras Colunas Removidas\",{{\"IDRisco\", \"ID Risco\"}, {\"IDClasse\", \"ID Classe\"}})",
+                "in",
+                "    #\"Colunas Renomeadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FNorma",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Anexo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "825512e4-da16-4abf-b4d1-7100809eac87",
+            "sourceColumn": "Anexo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Classe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a21920ee-ee6a-4706-b88e-9be577bb289b",
+            "sourceColumn": "Classe",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID Norma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eebe7082-b429-41ec-92aa-e3345c0f8a9e",
+            "sourceColumn": "ID Norma",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "86178226-948f-4cef-9f35-f0e8119a03c4",
+        "partitions": [
+          {
+            "name": "FNorma",
+            "mode": "import",
+            "queryGroup": "NBRs",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\Normas.xlsx\"), null, true),",
+                "    Normas_Sheet = Fonte{[Item=\"Normas\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Normas_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Norma\", type text}, {\"Classificação da NR\", type text}, {\"Classificação dos Anexos\", type text}}),",
+                "    #\"Coluna Condicional Adicionada\" = Table.AddColumn(#\"Tipo Alterado\", \"NR\", each if Text.StartsWith([Norma], \"NR\") then [Norma] else null),",
+                "    #\"Preenchido Abaixo\" = Table.FillDown(#\"Coluna Condicional Adicionada\",{\"NR\", \"Classificação da NR\"}),",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Preenchido Abaixo\",{\"Norma\", \"Classificação dos Anexos\", \"NR\"}),",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Outras Colunas Removidas\", each not Text.StartsWith([Norma], \"NR\")),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Linhas Filtradas\",{{\"Norma\", \"Anexo\"}, {\"Classificação dos Anexos\", \"Classe\"}, {\"NR\", \"Norma\"}}),",
+                "    #\"Texto Extraído Após o Delimitador\" = Table.TransformColumns(#\"Colunas Renomeadas\", {{\"Norma\", each Text.AfterDelimiter(_, \"-\"), type text}}),",
+                "    #\"Norma Inteiro\" = Table.TransformColumnTypes(#\"Texto Extraído Após o Delimitador\",{{\"Norma\", Int64.Type}}),",
+                "    #\"Norma Texto Novamente\" = Table.TransformColumnTypes(#\"Norma Inteiro\",{{\"Norma\", type text}}),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Norma Texto Novamente\",{{\"Norma\", \"ID Norma\"}})",
+                "in",
+                "    #\"Colunas Renomeadas1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimMapaIndustria",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Area",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa7237d4-a55a-4fc6-96be-896541e8884f",
+            "sourceColumn": "Area",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Elemento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2a1395d4-a8ee-4fef-a3f9-995e1e853d7e",
+            "sourceColumn": "Elemento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa2db7dd-c89b-4209-abdc-9c780bfd4322",
+            "sourceColumn": "Nome",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "efe48516-65eb-4847-bff1-badef22b5db3",
+        "measures": [
+          {
+            "name": "NomeAreaSelecionada",
+            "expression": "IF(HASONEVALUE(DimMapaIndustria[Nome]), \" | \"&VALUES(DimMapaIndustria[Nome]), \"\")",
+            "lineageTag": "216a26e4-eeab-4b2c-a96f-06de649f0126"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimMapaIndustria",
+            "mode": "import",
+            "queryGroup": "MapaRisco",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\MapaDesenho.xlsx\"), null, true),",
+                "    Planilha1_Sheet = Fonte{[Item=\"Planilha1\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Area\", type text}, {\"Elemento\", type text}, {\"Nome\", type text}}),",
+                "    #\"Texto em Maiúscula\" = Table.TransformColumns(#\"Tipo Alterado\",{{\"Nome\", Text.Upper, type text}})",
+                "in",
+                "    #\"Texto em Maiúscula\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FMapaRisco",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ID Area",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fa46ae51-349b-48d8-92a2-bc1fce86eb26",
+            "sourceColumn": "ID Area",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID Classe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "872bfcad-95f0-49cd-8622-dae24e6bc1c2",
+            "sourceColumn": "ID Classe",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f74c357c-9d92-4571-96d2-26c699bc4282",
+        "measures": [
+          {
+            "name": "OrdemCores",
+            "expression": "CALCULATE(DISTINCTCOUNT(FMapaRisco[ID Classe]))",
+            "formatString": "0",
+            "lineageTag": "742945dc-0108-40fd-87af-240109a025bc"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "FMapaRisco",
+            "mode": "import",
+            "queryGroup": "MapaRisco",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\MapaCores.xlsx\"), null, true),",
+                "    Tabela1_1_Table = Fonte{[Item=\"Tabela1_1\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Tabela1_1_Table,{{\"Classificação Risco\", type text}, {\"IDClasseRisco\", type text}, {\"Area\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"Area\", \"ID Area\"}, {\"IDClasseRisco\", \"ID Classe\"}}),",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Colunas Renomeadas\",{\"ID Area\", \"ID Classe\"})",
+                "in",
+                "    #\"Outras Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimClasseRisco",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Classe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "88dc3c4b-bf2c-4136-b6c8-e299e50b5c17",
+            "sourceColumn": "Classe",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID Classe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "86b6058b-63e6-4d7a-8682-d173f3c82c33",
+            "sourceColumn": "ID Classe",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2316a6cc-7e9b-4c49-9348-bd730da58b0e",
+        "partitions": [
+          {
+            "name": "DimClasseRisco",
+            "mode": "import",
+            "queryGroup": "MapaRisco",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\MapaClasseRisco.xlsx\"), null, true),",
+                "    Riscos_Sheet = Fonte{[Item=\"Riscos\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Riscos_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"IDRisco\", type text}, {\"Risco\", type text}, {\"Classificação\", type text}}),",
+                "    #\"Coluna Condicional Adicionada\" = Table.AddColumn(#\"Tipo Alterado\", \"IDClasse\", each if [Classificação] = \"Físico\" then \"ClasseRisco01\" else if [Classificação] = \"Químico\" then \"ClasseRisco02\" else if [Classificação] = \"Ergonômicos\" then \"ClasseRisco03\" else if [Classificação] = \"Acidentes\" then \"ClasseRisco04\" else null),",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Coluna Condicional Adicionada\",{\"Classificação\", \"IDClasse\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\", {\"IDClasse\"}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Duplicatas Removidas\",{{\"IDClasse\", \"ID Classe\"}, {\"Classificação\", \"Classe\"}})",
+                "in",
+                "    #\"Colunas Renomeadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimNorma",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Norma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a855a280-5ce6-4118-9e1b-4d6cd8c1ab2d",
+            "sourceColumn": "Norma",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Resumo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "62c9b5d1-813d-4aab-b419-a3963a80b1e0",
+            "sourceColumn": "Resumo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID Norma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "28dfd4c6-a7b8-4ad6-aabb-f0f9c31da512",
+            "sourceColumn": "ID Norma",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Classe",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e5c844cb-2c5a-4613-84f6-d79cbb545b14",
+            "sourceColumn": "Classe",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nome Norma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6b0746cf-75d2-4ffb-ab76-7bd7d532cf97",
+            "sourceColumn": "Nome Norma",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "URL Referência",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "354f618f-e0e4-479f-a6f4-48dec39b3a87",
+            "sourceColumn": "URL Referência",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Descrição Referência",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fa09b6c3-5a3f-410f-867e-2aa4a9e39e3d",
+            "sourceColumn": "Descrição Referência",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Inicio Vigência",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "49ce4db8-a3f3-43c3-a61e-9c16cf721a57",
+            "sourceColumn": "Inicio Vigência",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "47c060fe-c484-43aa-8220-e876187a631d",
+        "partitions": [
+          {
+            "name": "DimNorma",
+            "mode": "import",
+            "queryGroup": "NBRs",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\ricar\\OneDrive\\Documentos\\QuimicoIndustria\\NormasDesc.XLSX\"), null, true),",
+                "    Tabela1_1_Table = Fonte{[Item=\"Tabela1_1\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Tabela1_1_Table,{{\"Normas\", type text}, {\"Descrição\", type text}, {\"ID Norma\", type text}}),",
+                "    #\"Consultas Mescladas\" = Table.NestedJoin(#\"Tipo Alterado\", {\"ID Norma\"}, DNorma, {\"ID Norma\"}, \"DNorma\", JoinKind.LeftOuter),",
+                "    #\"DNorma Expandido\" = Table.ExpandTableColumn(#\"Consultas Mescladas\", \"DNorma\", {\"Classificação\"}, {\"Classificação\"}),",
+                "    #\"Consultas Mescladas1\" = Table.NestedJoin(#\"DNorma Expandido\", {\"ID Norma\"}, MTE, {\"ID Norma\"}, \"MTE\", JoinKind.LeftOuter),",
+                "    #\"MTE Expandido\" = Table.ExpandTableColumn(#\"Consultas Mescladas1\", \"MTE\", {\"Norma Titulo\", \"Link\", \"Descrição\", \"Inicio de Vigência\"}, {\"Norma Titulo\", \"Link\", \"Descrição.1\", \"Inicio de Vigência\"}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"MTE Expandido\",{{\"Normas\", \"Norma\"}, {\"Descrição\", \"Resumo\"}, {\"Classificação\", \"Classe\"}, {\"Norma Titulo\", \"Nome Norma\"}, {\"Link\", \"URL Referência\"}, {\"Descrição.1\", \"Descrição Referência\"}, {\"Inicio de Vigência\", \"Inicio Vigência\"}})",
+                "in",
+                "    #\"Colunas Renomeadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tela Inicial",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Tela Inicial",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f8e5a464-dbcf-463f-b9e3-2c931e6c6e19",
+            "sourceColumn": "Tela Inicial",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "670deecc-c90e-4ed3-919a-5cb305fc69b0",
+        "partitions": [
+          {
+            "name": "Tela Inicial",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WSklVcE8tSs1LzkzMTc0ryVcACgRlFifnK8XGAgA=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Tela Inicial\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Tela Inicial\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
